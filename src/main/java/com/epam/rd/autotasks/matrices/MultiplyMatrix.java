@@ -4,9 +4,17 @@ import java.util.Arrays;
 public class MultiplyMatrix {
     public static int[][] multiply(int[][] matrix1, int[][] matrix2) {
 
-        // Put your code here
-
-        return null;
+       int[][] res = new int[matrix1.length][matrix2.length];
+        int i, j, k;
+        for (i = 0; i < matrix1.length; i++) {
+            for (j = 0; j < matrix2.length; j++) {
+                res[i][j] = 0;
+                for (k = 0; k < matrix2.length; k++)
+                    res[i][j] += matrix1[i][k]
+                            * matrix2[k][j];
+            }
+        }
+        return res;
     }
 
     public static void main(String[] args) {
