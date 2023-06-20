@@ -17,22 +17,22 @@ public class MultiplyMatrix {
         return res;
     }
 
-    public static void main(String[] args) {
+    // public static void main(String[] args) {
 
-        System.out.println("Test your code here!\n");
+    //     System.out.println("Test your code here!\n");
 
-        // Get a result of your code
+    //     // Get a result of your code
 
-        int[][] a = {
-                {0, 12345},
-                {4509, 0},
-                {3, 567} };
+    //     int[][] a = {
+    //             {0, 12345},
+    //             {4509, 0},
+    //             {3, 567} };
 
-        int[][] b = {
-                {653, 0, 25353},
-                {0, 61, 6} };
+    //     int[][] b = {
+    //             {653, 0, 25353},
+    //             {0, 61, 6} };
 
-        int[][] result = multiply(a, b);
-        System.out.println(Arrays.deepToString(result).replace("],", "]\n"));
-    }
+    //     int[][] result = multiply(a, b);
+    //     System.out.println(Arrays.deepToString(result).replace("],", "]\n"));
+    // }
 }
